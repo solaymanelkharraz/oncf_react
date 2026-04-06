@@ -1,0 +1,16 @@
+:root {
+  --primary-blue: #0A2540; /* ONCF-like dark blue */
+  --accent-orange: #FF6600; /* ONCF-like orange */
+}
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, var(--primary-blue) 0%, #173d6b 100%);
+  padding: 120px 0 160px 0;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
