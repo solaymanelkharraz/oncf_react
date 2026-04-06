@@ -42,7 +42,7 @@ function TripCard({ trip }) {
             </div>
             
             {/* Hidden Form for Cross-Origin Navigation Bridge */}
-            <form ref={formRef} action="http://127.0.0.1:8000/cart/add" method="POST" className="m-0 d-none">
+            <form ref={formRef} action="https://oncf-iota.vercel.app/cart/add" method="POST" className="m-0 d-none">
                 <input type="hidden" name="voyage_id" value={trip.id} />
                 <input type="hidden" name="qte" value="1" />
             </form>

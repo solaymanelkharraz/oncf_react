@@ -10,7 +10,7 @@ function App() {
 
   // Fetch all trips when component mounts
   useEffect(() => {
-    fetch('http://127.0.0.1:8000/api/voyages')
+    fetch('https://oncf-iota.vercel.app/api/voyages')
       .then(response => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
